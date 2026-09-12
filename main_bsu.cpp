@@ -1,20 +1,25 @@
-// main_bsu.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
-
+#include <iomanip>
 int main()
 {
-    std::cout << "Hello World!\n";
+    using namespace std;
+    setlocale(LC_ALL, "Russian");
+    int c1, c2, c3, c4;
+    c1 = 20, c2 = 20, c3 = 20, c4 = 20;
+    cout << left << setw(c1) << "Familia" << setw(c2) << "Imya" << setw(c3) << "Otchestvo" << setw(c4) << "Info" << endl;
+    cout << left << setw(c1) << "" << setw(c2) << "" << setw(c3) << "" << setw(c4) << "" << endl;
+    cout << left << setw(c1) << "" << setw(c2) << "" << setw(c3) << "" << setw(c4) << "" << endl;
+    cout << left << setw(c1) << "" << setw(c2) << "" << setw(c3) << "" << setw(c4) << "" << endl;
+    cout << left << setw(c1) << "" << setw(c2) << "" << setw(c3) << "" << setw(c4) << "" << endl;
+    cout << left << setw(c1) << "" << setw(c2) << "" << setw(c3) << "" << setw(c4) << "" << endl;
+    cout << left << setw(c1) << "" << setw(c2) << "" << setw(c3) << "" << setw(c4) << "" << endl;
+    cout << left << setw(c1) << "" << setw(c2) << "" << setw(c3) << "" << setw(c4) << "" << endl;
+    cout << left << setw(c1) << "" << setw(c2) << "" << setw(c3) << "" << setw(c4) << "" << endl;
+    cout << left << setw(c1) << "" << setw(c2) << "" << setw(c3) << "" << setw(c4) << "" << endl;
+    cout << left << setw(c1) << "" << setw(c2) << "" << setw(c3) << "" << setw(c4) << "" << endl;
+    cout << left << setw(c1) << "" << setw(c2) << "" << setw(c3) << "" << setw(c4) << "" << endl;
+    cout << left << setw(c1) << "" << setw(c2) << "" << setw(c3) << "" << setw(c4) << "" << endl;
+    cout << left << setw(c1) << "" << setw(c2) << "" << setw(c3) << "" << setw(c4) << "" << endl;
+
+    return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
