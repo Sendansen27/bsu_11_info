@@ -23,7 +23,7 @@ int main()
     cout << left << setw(c1) << "" << setw(c2) << "" << setw(c3) << "" << setw(c4) << "" << endl;
     cout << left << setw(c1) << "" << setw(c2) << "" << setw(c3) << "" << setw(c4) << "" << endl;
     cout << left << setw(c1) << "" << setw(c2) << "" << setw(c3) << "" << setw(c4) << "" << endl;
-    cout << left << setw(46) << "Клыбик" << setw(49) << "Станислав" << setw(53) << "Александрович" << setw(c4) << "хочу работать программистом" << endl;
+    cout << left << setw(46) << "Кыбик" << setw(49) << "Станислав" << setw(53) << "Александрович" << setw(c4) << "хочу работать программистом" << endl;
 
     return 0;
 }
